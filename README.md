@@ -5,6 +5,11 @@
 
 # Workflow Documentation
 
+# About
+
+Welcome to this repository. This repository is a Jenkins and Elastic Beanstalk project where we took this file code and ran it through Jenkins to ensure everything was correct and then deployed it through AWS Elastic Beanstalk. Along the way, there were a few errors that had to be corrected. Below are the steps I took to achieve the success of the deployment.
+
+
 ## 1. GitHub
 
 - Downloaded files from GitHub repository
