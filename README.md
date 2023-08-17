@@ -48,3 +48,6 @@ Through a combination of Jenkins automation and AWS Elastic Beanstalk deployment
 <img width="862" alt="Screenshot 2023-08-16 at 12 31 45 PM" src="https://github.com/Jmo-101/c4_1.1_deployment/assets/138607757/a0fe2c95-7330-4613-9656-eb750bfde3e7">
   
   <img width="1435" alt="Screenshot 2023-08-16 at 8 59 21 PM" src="https://github.com/Jmo-101/c4_first_deployment/assets/138607757/2b90bae0-88d0-44f6-9893-bcf3bf41a0c1">
+
+
+<img width="862" alt="Screenshot 2023-08-16 at 8 44 55 PM" src="https://github.com/Jmo-101/c4_1.1_deployment/assets/138607757/5e9fced3-18db-4e76-8d10-73f410754e55">
