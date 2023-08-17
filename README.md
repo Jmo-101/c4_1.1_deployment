@@ -39,6 +39,10 @@ Welcome to this repository. This repository is a Jenkins and Elastic Beanstalk p
 - The name of the file was incorrect.
 - Renamed the file from "app" to "application" and successfully deployed the application
 
+## Conclusion
+
+Through a combination of Jenkins automation and AWS Elastic Beanstalk deployment, we successfully deployed the code from this repository
+
 
 
 
