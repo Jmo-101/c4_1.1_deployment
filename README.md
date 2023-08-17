@@ -33,3 +33,8 @@
 - Upon further inspection, noticed the module that was not found was located in GitHub.
 - The name of the file was incorrect.
 - Renamed the file from "app" to "application" and successfully deployed the application
+
+
+
+
+  <img width="1435" alt="Screenshot 2023-08-16 at 8 59 21 PM" src="https://github.com/Jmo-101/c4_first_deployment/assets/138607757/2b90bae0-88d0-44f6-9893-bcf3bf41a0c1">
