@@ -3,17 +3,33 @@
 </p>
 <h1 align="center">C4_deployment-1.1<h1> 
 
-Demonstrate your ability to run a Jenkins build and manually deploy to Elastic Beanstalk.
+# Workflow Documentation
 
-- Create a separate GitHub repository for this application 
+## 1. GitHub
 
-- Download the files from this repository and upload them to your newly created repository 
+- Downloaded files from GitHub repository
+- Uploaded files into a new GitHub repository
 
-- Be sure to follow the deployment instructions from this Repository  
+## 2. Jenkins
 
-- Document your issue and what you did to fix it in a .md file in your repository.
+- Logged into Jenkins and created a new pipeline
+- Created a new pipeline using a new repository
+- Had to generate a new GitHub repository token to use as credentials on Jenkins
+- Saved credentials and ran the pipeline. Success
 
-- Lastly, save your documentation and diagram into your repository. Submit your repository link to the LMS
+## 3. Elastic Beanstalk
 
-## Deployment instructions Link:
--  Link to instructions: https://github.com/kura-labs-org/C4_deployment-1.1/blob/main/Deployment-instructions.md
+- Created Elastic Beanstalk permissions
+- Created IAM permissions
+- Went into Elastic Beanstalk to create an application based on the GitHub repository
+- Made sure to upload the GitHub repository to the Beanstalk application
+- Added an availability zone to the application
+
+## 4. Troubleshooting
+
+- Ran into a problem on Elastic Beanstalk
+- Downloaded logs from Beanstalk to troubleshoot
+- While reading the logs, noticed it said error "ModuleNotFound:application"
+- Upon further inspection, noticed the module that was not found was located in GitHub.
+- The name of the file was incorrect.
+- Renamed the file from "app" to "application" and successfully deployed the application
